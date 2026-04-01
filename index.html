@@ -1,34 +1,109 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>愚人节快乐</title>
+    <title>USTC - 国际交流项目通知</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        /* 营造正式、克制的学术机构风格 */
         body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: #f4f7f9; /* 极淡的灰蓝色背景 */
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+            height: 100vh;
+            margin: 0;
+            color: #333;
         }
-        h1 {
-            color: #ffffff;
-            font-size: 2.5rem;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-            letter-spacing: 4px;
+        .notification-card {
+            background-color: white;
+            width: 90%;
+            max-width: 550px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08); /* 柔和的阴影，增加高级感 */
+            border-top: 8px solid #004a8f; /* USTC 校色，增加官方可信度 */
+            position: relative;
+        }
+        .official-header {
+            color: #004a8f;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+        }
+        .headline {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 18px;
+            line-height: 1.3;
+        }
+        .salutation {
+            color: #666;
+            margin-bottom: 25px;
+            font-size: 1rem;
+        }
+        /* 这是整蛊的punchline，
+           虽然内容荒诞，但字体大小和加粗要适度，
+           营造一种“官方认真地在跟你开玩笑”的错觉
+        */
+        .joke-text {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #d90429; /* 醒目但不刺眼的红色 */
+            background-color: #fff1f0; /* 极淡的红色背景 */
+            padding: 20px;
+            border-radius: 8px;
             text-align: center;
-            padding: 0 1rem;
+            border: 2px dashed #ffa39e;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+        .closing {
+            font-size: 0.95rem;
+            color: #888;
+            text-align: right;
+            line-height: 1.6;
+        }
+        .stamp {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            opacity: 0.1; /* 极淡的印章水印，增加细节 */
+            font-size: 4rem;
+            color: #004a8f;
+            font-weight: bold;
+            transform: rotate(-15deg);
         }
     </style>
 </head>
 <body>
-    <h1>愚人节快乐尹浩莹同学</h1>
+    <div class="notification-card">
+        <div class="stamp">FAKE</div>
+
+        <div class="official-header">
+            中国科学技术大学 (FAKE)
+        </div>
+        <div class="headline">
+            【紧急通知】2026年夏季海外高水平大学访学项目选拔结果
+        </div>
+        <p class="salutation">
+            尊敬的尹浩莹同学：
+        </p>
+        
+        <div class="joke-text">
+            愚人节快乐尹浩莹同学！牛津大学的访学项目记得看一下
+        </div>
+        
+        <div class="closing">
+            教务处（April 1 Edition）<br>
+            国际合作与交流部（Fake）<br>
+            2026年4月1日
+        </div>
+    </div>
 </body>
 </html>
